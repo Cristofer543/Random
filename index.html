@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Profile Display with Login and Image Upload</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-form">
+  <input type="text" id="username-input" placeholder="Enter username" />
+  <input type="file" id="icon-file-input" accept="image/*" />
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="user-profile" style="display:none;">
+  <img id="profile-icon" src="default_profile.png" alt="User" />
+  <span id="username">Guest</span>
+  <button onclick="logout()" style="margin-left: 10px;">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

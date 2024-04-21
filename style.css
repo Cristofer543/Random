@@ -1,0 +1,51 @@
+/* Resto del CSS anterior... */
+
+#user-profile {
+    position: fixed; /* Posicionamiento fijo en la pantalla */
+    top: 10px; /* Espaciado desde la parte superior de la pantalla */
+    right: 10px; /* Espaciado desde la parte derecha de la pantalla */
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 150px; /* Ajustar según sea necesario */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera para resaltar */
+  }
+  
+  #profile-icon {
+    width: 30px; /* Reducir el tamaño del icono */
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px; /* Reducir el margen */
+    border: 1px solid #ddd;
+  }
+  
+  #username {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente */
+  }
+  
+  /* Ajustes para el formulario de login */
+  #login-form {
+    position: fixed; /* Posicionamiento fijo en la pantalla */
+    top: 50px; /* Colocar debajo del perfil del usuario */
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #login-form input[type="text"],
+  #login-form input[type="file"] {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+  
+  #login-form button {
+    font-size: 0.8rem;
+  }
+  
